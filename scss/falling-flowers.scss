@@ -1,0 +1,28 @@
+.flowerContainer {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  pointer-events: none;
+  overflow: hidden;
+}
+
+.flower {
+  position: absolute;
+  top: -10vh;
+  width: 30px;
+  height: 30px;
+  background-image: url('../flower.png'); /* 꽃 이미지 경로 설정 */
+  background-size: cover;
+  animation: fall linear infinite;
+}
+
+@keyframes fall {
+  0% {
+    transform: translateY(0) rotate(0deg);
+  }
+  100% {
+    transform: translateY(100vh) rotate(360deg);
+  }
+}
