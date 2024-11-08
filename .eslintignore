@@ -1,0 +1,14 @@
+.next
+next-env.d.ts
+
+yarn.lock
+next.config.js
+next.config.mjs
+README.md
+
+*.log
+
+public
+**/pages/*
+node_modules
+out
