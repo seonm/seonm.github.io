@@ -1,1 +1,26 @@
-.flowerContainer{position:fixed;top:0;left:0;width:100vw;height:100vh;pointer-events:none;overflow:hidden}.flower{position:absolute;top:-10vh;width:30px;height:30px;background-image:url(https://seonm.github.io/_next/static/media/flower.dc645458.png);background-size:cover;animation:fall linear infinite}@keyframes fall{0%{transform:translateY(0) rotate(0deg)}to{transform:translateY(100vh) rotate(1turn)}}
+.flowerContainer {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  pointer-events: none;
+  overflow: hidden;
+}
+.flower {
+  position: absolute;
+  top: -10vh;
+  width: 30px;
+  height: 30px;
+  background-image: url(https://seonm.github.io/static/media/flower.dc645458.png);
+  background-size: cover;
+  animation: fall linear infinite;
+}
+@keyframes fall {
+  0% {
+    transform: translateY(0) rotate(0deg);
+  }
+  to {
+    transform: translateY(100vh) rotate(1turn);
+  }
+}
